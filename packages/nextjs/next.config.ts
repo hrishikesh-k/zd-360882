@@ -4,7 +4,7 @@ import type { NextConfig } from 'next'
 import { readFileSync } from 'node:fs'
 
 const nextConfig: NextConfig = {
-  async redirects() {
+  /*async redirects() {
     return readFileSync(
       join(cwd(), 'public', '_redirects'),
       'utf-8'
@@ -19,7 +19,7 @@ const nextConfig: NextConfig = {
         source: source.trim()
       }
     })
-  }
+  }*/
 }
 
 export default nextConfig
