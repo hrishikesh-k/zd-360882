@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "netlify-cli": "20.0.3",
     "turbo": "2.5.0"
   },
   "name": "zd-360882",
